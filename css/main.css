@@ -1,0 +1,116 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	
+	background: #f9f9f9;
+}
+
+/* NavBar customization code starts */
+.navbar-default {
+  background-color: #ffc107;
+  border-color: #ffa000;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #212121;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #212121;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #212121;
+  background-color: #ffa000;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #212121;
+  background-color: #ffa000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffa000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffa000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #212121;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #212121;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #212121;
+    background-color: #ffa000;
+  }
+}
+
+ #nav-img{
+ 	width: 50px;
+ 	height: 35px;
+ }
+
+ .btn-primary{
+ 	background-color: #009688;
+ 	border-color: #009688;
+ }
+ .btn-primary:hover{
+ 	border-color: #009688;
+ 	background-color: #009688;
+ }
+
+ /* NavBar code ends */
+
+ /*About section */
+ .ab-ti-section{
+ 	padding-top:10px;
+ }
+.ab-ti-section.well{
+	background-color: #B2EBF2;
+}
+
+/* Gallery Tweaks */
+.modal {
+	overflow: auto;
+	color: #333;
+}
+
+#gallery-intro-container {
+  padding-top: 60px;
+}
